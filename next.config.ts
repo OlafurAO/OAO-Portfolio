@@ -6,7 +6,7 @@ const nextConfig: NextConfig = {
       unoptimized: true, // Required for export if using <Image />
     },
     basePath: '/OAO-Portfolio', // Important!
-    assetPrefix: '/OAO-Portfolio',
+    assetPrefix: '/OAO-Portfolio/',
 };
 
 export default nextConfig;

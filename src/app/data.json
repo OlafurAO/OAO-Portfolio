@@ -1,0 +1,145 @@
+[
+  {
+    "id": 0,
+    "titleSection": {
+      "title": "METIS – Valorant AI Coaching Companion",
+      "duration": {
+        "yearFrom": 2024,
+        "yearTo": 2025
+      },
+      "url": "https://discord.com/discovery/applications/1134471326535520256",
+      "urlDescription": "View Discord App (Sunsetting in July 2025)"
+    },
+    "descriptionSection": {
+      "description": "Developed a Discord bot designed as an AI coaching companion for Valorant players. Once linked with a user's Riot account, the bot automatically delivers post-match summaries and performance analyses, comparing the user's stats against both personal and rank-based averages.",
+      "features": [
+        "Retrieve average performance stats",
+        "Request agent-specific lineups for selected maps and positions (e.g., A/B/Mid, with ability filters)",
+        "Chat directly with an AI agent powered by ChatGPT, integrated using Microsoft Semantic Kernel"
+      ],
+      "techDescription": "The backend leverages Semantic Kernel plugins to fetch personalized user data, game metadata (agents, maps, weapons), and perform natural language understanding via a vector database for enhanced contextual relevance."
+    },
+    "techStack": [
+      "Typescript", ".NET Core", "Discord API", "Riot API", "Semantic Kernel", "Qdrant", "Azure", "OpenAI API", "SerpAPI"
+    ],
+    "images": [
+      {
+        "path": "/images/metis/metis_1.png",
+        "caption": "Post-match Summary"
+      },
+      {
+        "path": "/images/metis/metis_5.png",
+        "caption": "Match Analysis"
+      },
+      {
+        "path": "/images/metis/metis_2.png",
+        "caption": "Player Statistics"
+      },
+      {
+        "path": "/images/metis/metis_3.png",
+        "caption": "Lineup results"
+      },
+      {
+        "path": "/images/metis/metis_4.png",
+        "caption": "AI Coach"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "titleSection": {
+      "title": "The Esports Coaching Academy Platform",
+      "duration": {
+        "yearFrom": 2022,
+        "yearTo": 2025
+      },
+      "url": "https://discord.com/discovery/applications/1134471326535520256",
+      "urlDescription": "Visit Platform (Sunsetting in July 2025)"
+    },
+    "descriptionSection": {
+      "description": "Initially led frontend development and UI/UX design for a web platform hosting game-specific esports training content. After the CTO stepped back from day-to-day responsibilities, I assumed full control of the platform’s tech stack—including backend development and database architecture.",
+      "features": [
+        "Hosts both curated and user-generated training content, with access governed by subscription tier",
+        "Coaches can form organizations with multiple locations, inviting other coaches to collaborate privately",
+        "Group management tools allow coaches to assign exercises and schedule sessions for students",
+        "Integrated calendar system to track session dates across an organization’s locations and coaches",
+        "Rich text editor powered by TinyMCE for content creation",
+        "Subscriptions and payments handled via Stripe"
+      ],
+      "techDescription": "The backend leverages Semantic Kernel plugins to fetch personalized user data, game metadata (agents, maps, weapons), and perform natural language understanding via a vector database for enhanced contextual relevance.",
+      "techBullets": [
+        "Designed and implemented frontend using React.js, TypeScript, Remix, and Tailwind CSS",
+        "Led UI/UX design, focusing on responsiveness, coach workflows, and intuitive navigation",
+        "Later expanded to backend ownership: built API routes, designed and optimized MySQL schema, and managed cloud infrastructure",
+        "Integrated Stripe, Sendgrid, Sentry, and deployed via Vercel and Azure"
+      ]
+    },
+    "techStack": [
+      "React.js", "Typescript", ".NET Core", "Remix", "Tailwind CSS", "MySQL", "Stripe", "Sendgrid", "Azure", "Vercel", "Sentry", "TinyMCE"
+    ],
+    "images": [
+      {
+        "path": "/images/eca/eca_2.png",
+        "caption": "Dashboard"
+      },
+      {
+        "path": "/images/eca/eca_1.png",
+        "caption": "Exercise List"
+      },
+      {
+        "path": "/images/eca/eca_4.png",
+        "caption": "Exercise Details"
+      },
+      {
+        "path": "/images/eca/eca_3.png",
+        "caption": "Coach Calendar"
+      },
+      {
+        "path": "/images/eca/eca_5.png",
+        "caption": "Content Editor"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "titleSection": {
+      "title": "Roobi - Mobile Puzzle Game",
+      "duration": {
+        "yearFrom": 2021
+      },
+      "url": "https://play.google.com/store/apps/details?id=com.astrocatgames.roobi",
+      "urlDescription": "Available on Google Play"
+    },
+    "descriptionSection": {
+      "description": "Designed, developed, and released a mobile physics-based puzzle game independently using the native Android Java SDK. Built entirely from scratch, including code, game design, art, and music.",
+      "highlights": [
+        "Built core physics systems and gameplay mechanics without external engines",
+        "Composed and produced original chiptune music using Famitracker",
+        "Created all audio assets using Famitracker for music and SFXR for 8-bit sound effects",
+        "Published on Google Play with approximately 18,000 installs to date",
+        "Managed publishing, updates, and release process through Google Play Console"
+      ]
+    },
+    "techStack": [
+      "Java", "Android SDK", "XML", "Famitracker", "SFXR", "Google Play Console"
+    ],
+    "images": [
+      {
+        "path": "/images/roobi/roobi_1.png",
+        "caption": "Post-match Summary"
+      },
+      {
+        "path": "/images/roobi/roobi_2.png",
+        "caption": "Match Analysis"
+      },
+      {
+        "path": "/images/roobi/roobi_3.png",
+        "caption": "Player Statistics"
+      },
+      {
+        "path": "/images/roobi/roobi_4.png",
+        "caption": "Lineup results"
+      }
+    ]
+  }
+]

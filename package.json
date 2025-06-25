@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "predeploy": "next build",
+    "build": "set NODE_ENV=production && next build",
+    "predeploy": "set NODE_ENV=production && next build",
     "deploy": "gh-pages -d out",
     "start": "next start",
     "lint": "next lint"

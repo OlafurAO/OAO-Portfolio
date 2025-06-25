@@ -1,12 +1,16 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from 'next';
+const isProd = process.env.NODE_ENV === 'production';
 
 const nextConfig: NextConfig = {
-   output: 'export', // This enables static HTML export
-    images: {
-      unoptimized: true, // Required for export if using <Image />
-    },
-    basePath: '/OAO-Portfolio', // Important!
+  output: 'export',
+  images: {
+    unoptimized: true,
+  },
+  trailingSlash: true,
+  ...(isProd && {
+    basePath: '/OAO-Portfolio',
     assetPrefix: '/OAO-Portfolio/',
+  })
 };
 
 export default nextConfig;

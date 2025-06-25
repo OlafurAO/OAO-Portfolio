@@ -1,5 +1,6 @@
 import Link from 'next/link';
-import { ProjectView, ProjectTitleSection, ProjectDescriptionSection } from './ProjectList';
+import Image from 'next/image';
+import { ProjectView, ProjectTitleSection, ProjectDescriptionSection, ProjectScreenshot } from './ProjectList';
 
 interface Props {
   project: ProjectView
@@ -15,6 +16,10 @@ interface DescriptionSectionProps {
 
 interface TechStackSectionProps {
   techStackSection: string[]
+}
+
+interface ScreenshotSectionProps {
+  images: ProjectScreenshot[]
 }
 
 const SectionHeader = ({ text } : { text: string }) => {
@@ -80,7 +85,7 @@ const DescriptionSectionComponent = ({ descriptionSection }: DescriptionSectionP
         </>
       )}
 
-      {descriptionSection.techDescription || descriptionSection.techBullets && (
+      {(descriptionSection.techDescription || descriptionSection.techBullets) && (
         <SectionHeader text='Technical Overview' />
       )}
       {descriptionSection.techDescription && (
@@ -111,6 +116,27 @@ const TechStackComponent = ({ techStackSection }: TechStackSectionProps) => {
   );
 }
 
+const ScreenshotSectionComponent = ({ images }: ScreenshotSectionProps) => {
+  return (
+    <>
+      {images.map((image, index) => (
+        <div 
+          key={index}
+          className="duration-700 ease-in-out" 
+          data-carousel-item
+        >
+          <Image
+            src={image.path}
+            alt={image.caption || ''}
+            width={500}
+            height={500}
+          />
+        </div>
+      ))}
+    </>
+  );
+}
+
 export const Project = ({ project } : Props) => {
   return (
     <div className='mb-3'>
@@ -122,6 +148,9 @@ export const Project = ({ project } : Props) => {
       />
       <TechStackComponent 
         techStackSection={project.techStack}
+      />
+      <ScreenshotSectionComponent 
+        images={project.images}
       />
     </div>
   );

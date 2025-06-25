@@ -24,23 +24,23 @@
     ],
     "images": [
       {
-        "path": "/images/metis/metis_1.png",
+        "path": "./images/metis/metis_1.png",
         "caption": "Post-match Summary"
       },
       {
-        "path": "/images/metis/metis_5.png",
+        "path": "./images/metis/metis_5.png",
         "caption": "Match Analysis"
       },
       {
-        "path": "/images/metis/metis_2.png",
+        "path": "./images/metis/metis_2.png",
         "caption": "Player Statistics"
       },
       {
-        "path": "/images/metis/metis_3.png",
+        "path": "./images/metis/metis_3.png",
         "caption": "Lineup results"
       },
       {
-        "path": "/images/metis/metis_4.png",
+        "path": "./images/metis/metis_4.png",
         "caption": "AI Coach"
       }
     ]
@@ -79,23 +79,23 @@
     ],
     "images": [
       {
-        "path": "/images/eca/eca_2.png",
+        "path": "./images/eca/eca_2.png",
         "caption": "Dashboard"
       },
       {
-        "path": "/images/eca/eca_1.png",
+        "path": "./images/eca/eca_1.png",
         "caption": "Exercise List"
       },
       {
-        "path": "/images/eca/eca_4.png",
+        "path": "./images/eca/eca_4.png",
         "caption": "Exercise Details"
       },
       {
-        "path": "/images/eca/eca_3.png",
+        "path": "./images/eca/eca_3.png",
         "caption": "Coach Calendar"
       },
       {
-        "path": "/images/eca/eca_5.png",
+        "path": "./images/eca/eca_5.png",
         "caption": "Content Editor"
       }
     ]
@@ -125,19 +125,19 @@
     ],
     "images": [
       {
-        "path": "/images/roobi/roobi_1.png",
+        "path": "./images/roobi/roobi_1.png",
         "caption": "Post-match Summary"
       },
       {
-        "path": "/images/roobi/roobi_2.png",
+        "path": "./images/roobi/roobi_2.png",
         "caption": "Match Analysis"
       },
       {
-        "path": "/images/roobi/roobi_3.png",
+        "path": "./images/roobi/roobi_3.png",
         "caption": "Player Statistics"
       },
       {
-        "path": "/images/roobi/roobi_4.png",
+        "path": "./images/roobi/roobi_4.png",
         "caption": "Lineup results"
       }
     ]

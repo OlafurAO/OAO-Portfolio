@@ -28,14 +28,14 @@ export interface ProjectDescriptionSection {
   highlights?: string []
 }
 
+export interface ProjectScreenshot {
+  caption?: string,
+  path: string
+}
+
 interface ProjectDuration {
   yearFrom: number
   yearTo?: number,
-}
-
-interface ProjectScreenshot {
-  caption?: string,
-  path: string
 }
 
 export const ProjectList = ({ projects }: Props) => {

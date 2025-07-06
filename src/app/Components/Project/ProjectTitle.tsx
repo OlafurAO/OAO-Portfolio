@@ -19,16 +19,19 @@ interface Props {
 export const ProjectTitle = ({ titleSection }: Props) => {
   return (
     <>
-    <h2 className='text-xl font-bold mt-4 text-[#044B7F]'>
+    <h2 className='text-xl font-bold mt-4 cool-green'>
       {titleSection.title}
     </h2>
     <p>
-      <strong>Project Duration: </strong>
-      {titleSection.duration.yearFrom} - {titleSection.duration.yearTo}
+      <strong className='cool-green'>
+        Project Duration:{' '}
+        {titleSection.duration.yearFrom} - {titleSection.duration.yearTo}
+      </strong>
     </p>
     <Link
-      className='cool-green font-bold hover:underline'
+      className='font-bold cool-blue hover:underline'
       href={titleSection.url}
+      target='_blank'
     >
       {titleSection.urlDescription}
     </Link>

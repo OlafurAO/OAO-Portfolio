@@ -4,7 +4,7 @@ interface Props {
 
 export const ProjectSectionHeader = ({ text } : Props) => {
   return (
-    <h2 className='text-xl font-medium mt-4 text-[#044B7F]'>
+    <h2 className='text-xl font-medium mt-4 cool-green'>
       {text}
     </h2>
   );

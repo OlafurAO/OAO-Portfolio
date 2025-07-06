@@ -5,9 +5,6 @@ module.exports = {
       fontFamily: {
         quicksand: ['Quicksand', 'sans-serif'],
       },
-      colors: {
-        'cool-green': '#107E7D',
-      }
     },
   },
   plugins: [],

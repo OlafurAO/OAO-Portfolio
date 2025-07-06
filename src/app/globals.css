@@ -34,3 +34,15 @@ h1, h2 {
 .cool-green {
   color: #107E7D;
 }
+
+.cool-blue {
+  color: #97C8EB;
+}
+
+.bg-cool-green {
+  background-color: #107E7D;
+}
+
+.bg-cool-blue {
+  background-color: #97C8EB;
+}

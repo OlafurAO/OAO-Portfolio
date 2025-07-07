@@ -7,11 +7,16 @@ interface Props {
 
 export const ProjectList = ({ projects }: Props) => {
   return (
-    projects.map((proj) => (
-      <Project
-        key={proj.id}
-        project={proj} 
-      />
-    ))
+    <div className='mx-auto'>
+      <p className='text-lg'>
+        Developer portfolio
+      </p>
+      {projects.map((proj) => (
+        <Project
+          key={proj.id}
+          project={proj} 
+        />
+      ))}
+    </div>
   );
 }

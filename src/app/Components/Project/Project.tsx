@@ -17,17 +17,17 @@ export interface ProjectView {
 
 export const Project = ({ project } : Props) => {
   return (
-    <div className='mb-3'>
-      <ProjectTitle 
+    <div className='mb-20'>
+      <ProjectTitle
         titleSection={project.titleSection} 
       />
-      <ProjectDescription 
+      <ProjectDescription
         descriptionSection={project.descriptionSection} 
       />
-      <ProjectTechStack 
+      <ProjectTechStack
         techStackSection={project.techStack}
       />
-      <ProjectScreenshots 
+      <ProjectScreenshots
         images={project.images}
       />
     </div>

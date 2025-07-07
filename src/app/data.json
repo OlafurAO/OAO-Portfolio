@@ -57,7 +57,7 @@
       "urlDescription": "Visit Platform (Sunsetting in July 2025)"
     },
     "descriptionSection": {
-      "description": "Initially led frontend development and UI/UX design for a web platform hosting game-specific esports training content. After the CTO stepped back from day-to-day responsibilities, I assumed full control of the platform’s tech stack—including backend development and database architecture.",
+      "description": "Initially led frontend development and UI/UX design for a web platform hosting game-specific esports training content. After the CTO stepped back from day-to-day responsibilities, I assumed full control of the platform’s tech stack, including backend development and database architecture.",
       "features": [
         "Hosts both curated and user-generated training content, with access governed by subscription tier",
         "Coaches can form organizations with multiple locations, inviting other coaches to collaborate privately",
@@ -66,7 +66,7 @@
         "Rich text editor powered by TinyMCE for content creation",
         "Subscriptions and payments handled via Stripe"
       ],
-      "techDescription": "The backend leverages Semantic Kernel plugins to fetch personalized user data, game metadata (agents, maps, weapons), and perform natural language understanding via a vector database for enhanced contextual relevance.",
+      "techDescription": "INSERT TEXT HERE",
       "techBullets": [
         "Designed and implemented frontend using React.js, TypeScript, Remix, and Tailwind CSS",
         "Led UI/UX design, focusing on responsiveness, coach workflows, and intuitive navigation",

@@ -42,7 +42,7 @@ const UrlComponent = ({
       className={float ? 'float-left mr-2' : ''}
       href={href}
     >
-      <div className='sm:flex cool-green'>
+      <div className='flex cool-green'>
         <Icon
           className={`${skipMargin ? 'mt-[-1px]' : 'mt-[1px]'} mr-1`}
           width={20} 
@@ -67,7 +67,7 @@ export const Header = () => {
           height='100'
         />
         <div>
-          <h1 className='text-2xl mt-2'>
+          <h1 className='text-lg lg:text-2xl mt-2'>
             Ólafur Ammendrup
           </h1>
           {urls.map((url, index) => (

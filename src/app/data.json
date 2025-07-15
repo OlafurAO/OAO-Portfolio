@@ -2,7 +2,8 @@
   {
     "id": 0,
     "titleSection": {
-      "title": "METIS – Valorant AI Coaching Companion",
+      "title": "METIS – Valorant Coaching Companion",
+      "logoPath": "./images/metis/metis_logo.png" ,
       "duration": {
         "yearFrom": 2024,
         "yearTo": 2025
@@ -49,6 +50,7 @@
     "id": 1,
     "titleSection": {
       "title": "The Esports Coaching Academy Platform",
+      "logoPath": "./images/eca/eca_logo.png" ,
       "duration": {
         "yearFrom": 2022,
         "yearTo": 2025
@@ -104,6 +106,7 @@
     "id": 2,
     "titleSection": {
       "title": "Roobi - Mobile Puzzle Game",
+      "logoPath": "./images/roobi/roobi_logo.png" ,
       "duration": {
         "yearFrom": 2021
       },

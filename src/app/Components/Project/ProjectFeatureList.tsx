@@ -8,7 +8,7 @@ export const ProjectFeatureList = ({ items }: Props) => {
       {items.map((item, index) => (
         <li 
           key={index}
-          className='ml-10'
+          className='ml-5 lg:ml-10'
         >
           {item}
         </li>

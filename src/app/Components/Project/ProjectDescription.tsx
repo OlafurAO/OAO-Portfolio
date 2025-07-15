@@ -15,7 +15,7 @@ interface Props {
 
 export const ProjectDescription = ({ descriptionSection }: Props) => {
   return (
-    <>
+    <div className='text-sm lg:text-base'>
       <ProjectSectionHeader text='Overview' />
       <p>{descriptionSection.description}</p>
 
@@ -42,6 +42,6 @@ export const ProjectDescription = ({ descriptionSection }: Props) => {
       {descriptionSection.techBullets && (
         <ProjectFeatureList items={descriptionSection.techBullets} />
       )}
-    </>
+    </div>
   );
 }

@@ -50,7 +50,11 @@
     "id": 1,
     "titleSection": {
       "title": "The Esports Coaching Academy Platform",
-      "logoPath": "./images/eca/eca_logo.png" ,
+      "logoPath": "./images/eca/eca_logo.png",
+      "logoDimensions": {
+        "width": 59,
+        "height": 82
+      },
       "duration": {
         "yearFrom": 2022,
         "yearTo": 2025
@@ -106,7 +110,7 @@
     "id": 2,
     "titleSection": {
       "title": "Roobi - Mobile Puzzle Game",
-      "logoPath": "./images/roobi/roobi_logo.png" ,
+      "logoPath": "./images/roobi/roobi_logo.png",
       "duration": {
         "yearFrom": 2021
       },
@@ -124,24 +128,68 @@
       ]
     },
     "techStack": [
-      "Java", "Android SDK", "XML", "Famitracker", "SFXR", "Google Play Console"
+      "Java", "Android SDK", "XML", "Famitracker", "SFXR", "Google Play Console", "Google Admob"
     ],
     "images": [
       {
         "path": "./images/roobi/roobi_1.png",
-        "caption": "Post-match Summary"
+        "caption": "Screenshot 1"
       },
       {
         "path": "./images/roobi/roobi_2.png",
-        "caption": "Match Analysis"
+        "caption": "Screenshot 2"
       },
       {
         "path": "./images/roobi/roobi_3.png",
-        "caption": "Player Statistics"
+        "caption": "Screenshot 3"
       },
       {
         "path": "./images/roobi/roobi_4.png",
-        "caption": "Lineup results"
+        "caption": "Screenshot 4"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "titleSection": {
+      "title": "Block Climber - Mobile Puzzle Game",
+      "logoPath": "./images/block_climber/block_climber_logo.png",
+      "duration": {
+        "yearFrom": 2022
+      },
+      "url": "https://play.google.com/store/apps/details?id=com.AstroCatGames.BlockClimber",
+      "urlDescription": "Available on Google Play"
+    },
+    "descriptionSection": {
+      "description": "Solo-developed an arcade-style vertical platformer using the Unity engine. Designed, built, and released the game independently, handling all code, game mechanics, UI, and sound design.",
+      "highlights": [
+        "Implemented platforming mechanics, procedural level generation, and collision systems",
+        "Designed all gameplay and user interface interactions",
+        "Created 8-bit-style sound effects to match the minimalist aesthetic",
+        "Used Unity’s built-in geometry and materials for all visuals",
+        "Published on Google Play with over 3,000 installs to date",
+        "Managed publishing, updates, and release process through Google Play Console"
+      ]
+    },
+    "techStack": [
+      "Unity", "C#", "SFXR", "Google Play Console", "Google Admob"
+    ],
+    "images": [
+      {
+        "path": "./images/block_climber/block_1.png",
+        "caption": "Screenshot 1"
+      },
+      {
+        "path": "./images/block_climber/block_2.png",
+        "caption": "Screenshot 2"
+      },
+      {
+        "path": "./images/block_climber/block_3.png",
+        "caption": "Screenshot 3"
+      },
+      {
+        "path": "./images/block_climber/block_4.png",
+        "caption": "Screenshot 4"
       }
     ]
   }

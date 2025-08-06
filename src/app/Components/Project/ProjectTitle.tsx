@@ -4,9 +4,15 @@ import Image from 'next/image';
 export interface ProjectTitleSectionView {
   title: string,
   logoPath: string;
+  logoDimensions?: LogoDimensions;
   duration: ProjectDuration,
   url: string,
   urlDescription: string,
+}
+
+interface LogoDimensions {
+  width: number;
+  height: number;
 }
 
 interface ProjectDuration {
@@ -20,14 +26,15 @@ interface Props {
 
 interface ProjectLogoComponentProps {
   logoPath: string;
+  logoDimensions?: LogoDimensions;
 }
 
-const ProjectLogoComponent = ({ logoPath }: ProjectLogoComponentProps) => {
+const ProjectLogoComponent = ({ logoPath, logoDimensions }: ProjectLogoComponentProps) => {
   return (
     <Image
-      width={0}
-      height={0}
-      className='rounded-xl w-[60px] h-[60px] lg:w-[100px] lg:h-[100px] my-auto'
+      width={logoDimensions?.width || 0}
+      height={logoDimensions?.height || 0}
+      className={`rounded-xl ${logoDimensions ? '' : 'w-[60px] h-[60px] lg:w-[100px] lg:h-[100px]'} my-auto`}
       src={logoPath}
       alt='project logo'
     />
@@ -60,7 +67,10 @@ const TitleComponent = ({ titleSection }: Props) => {
 export const ProjectTitle = ({ titleSection }: Props) => {
   return (
     <div className='flex'>
-      <ProjectLogoComponent logoPath={titleSection.logoPath} />
+      <ProjectLogoComponent 
+        logoPath={titleSection.logoPath}
+        logoDimensions={titleSection.logoDimensions}
+      />
       <TitleComponent titleSection={titleSection}/>
     </div>
   );

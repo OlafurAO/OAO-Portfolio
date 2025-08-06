@@ -1,6 +1,6 @@
 import { ProjectDescription, ProjectDescriptionSectionView } from './ProjectDescription';
 import { ProjectScreenshotView, ProjectScreenshots } from './ProjectScreenshots';
-import { ProjectTechStack } from './ProjectTechStack';
+import { ProjectTechStack } from './TechStack/ProjectTechStack';
 import { ProjectTitle, ProjectTitleSectionView } from './ProjectTitle';
 
 interface Props {

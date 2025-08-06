@@ -4,4 +4,4 @@ export * from './ProjectFeatureList';
 export * from './ProjectScreenshots';
 export * from './ProjectSectionHeader';
 export * from './ProjectTitle';
-export * from './ProjectTechStack';
+export * from './TechStack';

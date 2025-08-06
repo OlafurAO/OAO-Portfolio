@@ -60,7 +60,7 @@ export const Header = () => {
     <div className='lg:fixed z-100 lg:left-10'>
       <div className='mb-2 w-full'>
         <Image
-          src='/images/oli.jpg'
+          src='./images/oli/oli.jpg'
           alt='image of a handsome boy'
           className='rounded-md'
           width='200'

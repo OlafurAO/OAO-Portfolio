@@ -1,0 +1,41 @@
+[
+  {
+    "id": 0,
+    "employer": "The Esports Coaching Academy",
+    "duration": {
+      "yearFrom": 2022,
+      "yearTo": 2025
+    },
+    "positions": [
+      {
+        "title": "Lead Developer",
+        "duration": {
+          "yearFrom": 2023,
+          "yearTo": 2025
+        },
+        "description": "INSERT TEXT",
+        "highlights": [
+          "Sole developer after the CTO stepped back; owned the company’s entire tech stack",
+          "Designed and built an AI-powered coaching platform (backend, frontend, system, and database architecture)",
+          "Managed infrastructure and deployment (Azure, Vercel); integrated Stripe, Sendgrid, Semantic Kernel, and vector search",
+          "Implemented AI-driven features using Microsoft Semantic Kernel and Qdrant"
+        ]
+      },
+      {
+        "title": "Junior Developer",
+        "duration": {
+          "yearFrom": 2022,
+          "yearTo": 2023
+        },
+        "description": "INSERT TEXT",
+        "highlights": [
+          "Developed and maintained the company’s frontend application; collaborated with the CTO on backend and DevOps",
+          "Led UI/UX design and helped shape early product direction"
+        ]
+      }
+    ],
+    "techStack": [
+      "Typescript", "React.js", "Node.js", "Remix", "Tailwind CSS", "C#", ".NET Core", "Discord API", "Riot API", "Semantic Kernel", "Qdrant", "Azure", "OpenAI API", "SerpAPI", "Stripe", "Sendgrid", "Vercel", "Sentry", "TinyMCE"
+    ]
+  }
+]

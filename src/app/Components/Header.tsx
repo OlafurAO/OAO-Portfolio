@@ -28,12 +28,12 @@ const urls: UrlProps[] = [
     href: 'https://se.linkedin.com/in/oliamm',
     skipMargin: true,
   }
-]
+];
 
 const UrlComponent = ({ 
-  urlText, 
-  href, 
-  Icon, 
+  urlText,
+  href,
+  Icon,
   skipMargin,
   float,
 } : UrlProps) => {
@@ -57,12 +57,12 @@ const UrlComponent = ({
 
 export const Header = () => {
   return (
-    <div className='lg:fixed z-100 lg:left-10'>
+    <div className='lg:fixed z-100 lg:right-0 lg:pt-5 lg:top-0 lg:px-6 lg:h-full'>
       <div className='mb-2 w-full'>
         <Image
-          src='./images/oli/oli.jpg'
+          src='/images/oli/oli.jpg'
           alt='image of a handsome boy'
-          className='rounded-md'
+          className='rounded-md mx-auto'
           width='200'
           height='100'
         />

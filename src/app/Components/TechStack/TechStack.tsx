@@ -1,14 +1,13 @@
-import { ProjectSectionHeader } from '../ProjectSectionHeader';
-import { TechStackItem } from './TechStackItem';
+import { SectionHeader, TechStackItem } from '~/Components';
 
 interface TechStackSectionProps {
   techStackSection: string[]
 }
 
-export const ProjectTechStack = ({ techStackSection }: TechStackSectionProps) => {
+export const TechStack = ({ techStackSection }: TechStackSectionProps) => {
   return (
     <>
-      <ProjectSectionHeader 
+      <SectionHeader 
         text='Tech Stack'
       />
       <div className='bg-gray-100 pt-4 pb-2 px-5 rounded-2xl text-sm mt-1'>

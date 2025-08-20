@@ -71,7 +71,7 @@ export const Home = ({ info }: Props) => {
     <div className='lg:pt-5 lg:px-6 lg:flex'>
       <div className='mb-5'>
         <Image
-          src='images/oli/oli.jpg'
+          src='./images/oli/oli.jpg'
           alt='image of a handsome boy'
           className='rounded-md mx-auto lg:mx-0'
           width='200'

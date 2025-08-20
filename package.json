@@ -4,11 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "set NODE_ENV=production && next build",
+    "build": "set NODE_ENV=production && next build && touch out/.nojekyll",
     "predeploy": "set NODE_ENV=production && next build",
     "deploy": "gh-pages -d out",
     "start": "next start",
-    "export": "next export && touch out/.nojekyll",
     "lint": "next lint"
   },
   "dependencies": {

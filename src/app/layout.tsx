@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { Geist, Geist_Mono, Quicksand } from 'next/font/google';
 import './globals.css';
 import { LayoutContainer } from '~/Containers';
-import { Header, NavBar } from '~/Components';
+import { NavBar } from '~/Components';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -35,7 +35,6 @@ export default function RootLayout({
       <body className={`${geistSans.variable} ${geistMono.variable} ${quicksand.variable} antialiased lg:max-w-[60%]`}>
         <LayoutContainer>
           <NavBar />
-          <Header />
           <div className='lg:mx-auto'>
             {children}
           </div>

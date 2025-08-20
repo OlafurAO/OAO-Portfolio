@@ -4,7 +4,7 @@ export * from './CVList';
 export * from './CV';
 export * from './ProjectList';
 export * from './ReferenceList';
-export * from './Header';
 export * from './NavBar';
 export * from './Common';
 export * from './Reference';
+export * from './Home';

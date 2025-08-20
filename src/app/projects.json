@@ -4,7 +4,7 @@
     "titleSection": {
       "title": "METIS – Valorant Coaching Companion",
       "shortTitle": "METIS",
-      "logoPath": "./images/metis/metis_logo.png" ,
+      "logoPath": "images/metis/metis_logo.png" ,
       "duration": {
         "yearFrom": 2024,
         "yearTo": 2025

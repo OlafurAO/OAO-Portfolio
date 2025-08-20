@@ -6,7 +6,6 @@ import { useKeenSlider } from 'keen-slider/react';
 import 'keen-slider/keen-slider.min.css';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { SectionHeader } from '~/Components';
-import { ghPagesLoader } from '~/lib/path';
 
 export interface ProjectScreenshotView {
   caption?: string,
@@ -72,7 +71,6 @@ const CarouselComponent = ({ images, sliderRef, currentImgIndex }: CarouselCompo
                 src={image.path}
                 alt={image.caption || ''}
                 fill
-                loader={ghPagesLoader}
                 className={`object-contain ${currentImgIndex !== index ? 'hidden' : 'block'}`}
                 sizes='(max-width: 768px)'
                 priority={index === 0}
@@ -88,7 +86,6 @@ const CarouselComponent = ({ images, sliderRef, currentImgIndex }: CarouselCompo
         >
           <Image
             src={zoomedImgSrc.path}
-            loader={ghPagesLoader}
             alt={zoomedImgSrc.caption || ''}
             width={1000}
             height={800}

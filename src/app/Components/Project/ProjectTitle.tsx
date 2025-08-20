@@ -1,11 +1,13 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import { Duration, DurationView } from '~/Components';
 
 export interface ProjectTitleSectionView {
   title: string,
+  shortTitle: string,
   logoPath: string;
   logoDimensions?: LogoDimensions;
-  duration: ProjectDuration,
+  duration: DurationView,
   url: string,
   urlDescription: string,
 }
@@ -13,11 +15,6 @@ export interface ProjectTitleSectionView {
 interface LogoDimensions {
   width: number;
   height: number;
-}
-
-interface ProjectDuration {
-  yearFrom: number
-  yearTo?: number,
 }
 
 interface Props {
@@ -47,12 +44,10 @@ const TitleComponent = ({ titleSection }: Props) => {
       <h2 className='text-base lg:text-xl font-bold cool-green'>
         {titleSection.title}
       </h2>
-      <p>
-        <strong className='cool-green'>
-          Project Duration:{' '}
-          {titleSection.duration.yearFrom} - {titleSection.duration.yearTo || 'Present'}
-        </strong>
-      </p>
+      <Duration 
+        text='Project Duration'
+        duration={titleSection.duration}
+      />
       <Link
         className='font-medium cool-blue hover:underline'
         href={titleSection.url}

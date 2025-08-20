@@ -1,0 +1,16 @@
+[
+  {
+    "id": 0,
+    "name": "Ólafur Hrafn Steinarsson",
+    "title": "Co-founder & former CEO",
+    "linkedIn": "https://www.linkedin.com/in/olafursteinarsson/",
+    "refLetterUrl": "/docs/ohs_reference.pdf"
+  },
+  {
+    "id": 1,
+    "name": "Vífill Valdimarsson",
+    "title": "Co-founder & former CTO",
+    "email": "vifill12@gmail.com",
+    "linkedIn": "https://www.linkedin.com/in/vifill-valdimarsson/"
+  }
+]

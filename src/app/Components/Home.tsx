@@ -1,6 +1,17 @@
 import React from 'react';
 import Image from 'next/image';
 import { AtSign, Github, Linkedin } from 'lucide-react';
+import Link from 'next/link';
+
+interface Props {
+  info: InfoView;
+}
+
+interface InfoView {
+  title: string;
+  description: string;
+  description2: string;
+}
 
 interface UrlProps {
   urlText: string;
@@ -28,12 +39,12 @@ const urls: UrlProps[] = [
     href: 'https://se.linkedin.com/in/oliamm',
     skipMargin: true,
   }
-]
+];
 
 const UrlComponent = ({ 
-  urlText, 
-  href, 
-  Icon, 
+  urlText,
+  href,
+  Icon,
   skipMargin,
   float,
 } : UrlProps) => {
@@ -55,14 +66,14 @@ const UrlComponent = ({
   );
 }
 
-export const Header = () => {
+export const Home = ({ info }: Props) => {
   return (
-    <div className='lg:fixed z-100 lg:left-10'>
-      <div className='mb-2 w-full'>
+    <div className='lg:pt-5 lg:px-6 lg:flex'>
+      <div className='mb-5'>
         <Image
-          src='./images/oli/oli.jpg'
+          src='/images/oli/oli.jpg'
           alt='image of a handsome boy'
-          className='rounded-md'
+          className='rounded-md mx-auto lg:mx-0'
           width='200'
           height='100'
         />
@@ -81,6 +92,21 @@ export const Header = () => {
             />
           ))}
         </div>
+      </div>
+      <div>
+        <p className='text-lg font-bold cool-green'>
+          {info.title}
+        </p>
+        <p>{info.description}</p>
+        <p className='my-2'>
+          {info.description2}
+        </p>
+        <Link 
+          href='/projects'
+          className='cool-blue hover:underline font-medium'
+        >
+          <p>Check it out!</p>
+        </Link>
       </div>
     </div>
   );

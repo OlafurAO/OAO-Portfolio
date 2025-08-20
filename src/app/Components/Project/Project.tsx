@@ -1,7 +1,12 @@
-import { ProjectDescription, ProjectDescriptionSectionView } from './ProjectDescription';
-import { ProjectScreenshotView, ProjectScreenshots } from './ProjectScreenshots';
-import { ProjectTechStack } from './TechStack/ProjectTechStack';
-import { ProjectTitle, ProjectTitleSectionView } from './ProjectTitle';
+import { 
+  ProjectDescription, 
+  ProjectDescriptionSectionView, 
+  ProjectScreenshotView, 
+  ProjectScreenshots, 
+  TechStack, 
+  ProjectTitle, 
+  ProjectTitleSectionView
+} from '~/Components';
 
 interface Props {
   project: ProjectView;
@@ -24,7 +29,7 @@ export const Project = ({ project } : Props) => {
       <ProjectDescription
         descriptionSection={project.descriptionSection} 
       />
-      <ProjectTechStack
+      <TechStack
         techStackSection={project.techStack}
       />
       <ProjectScreenshots

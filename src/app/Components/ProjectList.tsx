@@ -1,5 +1,4 @@
-
-import { Project, ProjectView } from './Project'
+import { Project, ProjectView } from '~/Components';
 
 interface Props {
   projects: ProjectView[];
@@ -7,7 +6,7 @@ interface Props {
 
 export const ProjectList = ({ projects }: Props) => {
   return (
-    <div className='lg:mx-auto'>
+    <>
       <p className='text-xl mb-10'>
         Developer portfolio
       </p>
@@ -17,6 +16,6 @@ export const ProjectList = ({ projects }: Props) => {
           project={proj} 
         />
       ))}
-    </div>
+    </>
   );
 }

@@ -5,7 +5,7 @@ import { Ref, useState } from 'react';
 import { useKeenSlider } from 'keen-slider/react';
 import 'keen-slider/keen-slider.min.css';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
-import { ProjectSectionHeader } from './ProjectSectionHeader';
+import { SectionHeader } from '~/Components';
 
 export interface ProjectScreenshotView {
   caption?: string,
@@ -137,7 +137,10 @@ export const ProjectScreenshots = ({ images }: Props) => {
   const [sliderRef, slider] = useKeenSlider<HTMLDivElement>({
     loop: true,
     mode: 'snap',
-    slides: { perView: 1 }
+    slides: { perView: 1 },
+    slideChanged(s) {
+      setCurrentImgIndex(s.track.details.rel);
+    }
   });
 
   const onClickNext = () => {
@@ -159,7 +162,7 @@ export const ProjectScreenshots = ({ images }: Props) => {
 
   return (
     <>
-      <ProjectSectionHeader text='Screenshots' />
+      <SectionHeader text='Screenshots' />
       <div className='flex relative'>
         {currentImgIndex > 0 && (
           <ButtonComponent

@@ -1,5 +1,4 @@
-import { ProjectFeatureList } from './ProjectFeatureList';
-import { ProjectSectionHeader } from './ProjectSectionHeader';
+import { BulletList, SectionHeader } from '~/Components';
 
 export interface ProjectDescriptionSectionView {
   description: string,
@@ -16,31 +15,31 @@ interface Props {
 export const ProjectDescription = ({ descriptionSection }: Props) => {
   return (
     <div className='text-sm lg:text-base'>
-      <ProjectSectionHeader text='Overview' />
+      <SectionHeader text='Overview' />
       <p>{descriptionSection.description}</p>
 
       {descriptionSection.features && (
         <>
-          <ProjectSectionHeader text='Features' />
-          <ProjectFeatureList items={descriptionSection.features} />
+          <SectionHeader text='Features' />
+          <BulletList items={descriptionSection.features} />
         </>
       )}
 
       {descriptionSection.highlights && (
         <>
-          <ProjectSectionHeader text='Highlights' />
-          <ProjectFeatureList items={descriptionSection.highlights} />
+          <SectionHeader text='Highlights' />
+          <BulletList items={descriptionSection.highlights} />
         </>
       )}
 
       {(descriptionSection.techDescription || descriptionSection.techBullets) && (
-        <ProjectSectionHeader text='Technical Overview' />
+        <SectionHeader text='Technical Overview' />
       )}
       {descriptionSection.techDescription && (
         <p className='mb-1'>{descriptionSection.techDescription}</p>
       )}
       {descriptionSection.techBullets && (
-        <ProjectFeatureList items={descriptionSection.techBullets} />
+        <BulletList items={descriptionSection.techBullets} />
       )}
     </div>
   );

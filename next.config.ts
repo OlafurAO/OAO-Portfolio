@@ -9,7 +9,7 @@ const nextConfig: NextConfig = {
   trailingSlash: true,
   ...(isProd && {
     basePath: '/OAO-Portfolio',
-    assetPrefix: '/OAO-Portfolio',
+    assetPrefix: '/OAO-Portfolio/',
   })
 };
 

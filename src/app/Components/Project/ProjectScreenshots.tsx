@@ -6,6 +6,7 @@ import { useKeenSlider } from 'keen-slider/react';
 import 'keen-slider/keen-slider.min.css';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { SectionHeader } from '~/Components';
+import { withBase } from '~/lib/path';
 
 export interface ProjectScreenshotView {
   caption?: string,
@@ -85,7 +86,7 @@ const CarouselComponent = ({ images, sliderRef, currentImgIndex }: CarouselCompo
           onClick={onClickOutsideImg}
         >
           <Image
-            src={zoomedImgSrc.path}
+            src={withBase(zoomedImgSrc.path)}
             alt={zoomedImgSrc.caption || ''}
             width={1000}
             height={800}

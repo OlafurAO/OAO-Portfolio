@@ -1,6 +1,6 @@
 import type { ImageLoader } from 'next/image';
 
-const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? (process.env.NODE_ENV === 'production' ? '/OAO-Portfolio' : '');
 const assetPrefix = process.env.NEXT_PUBLIC_ASSET_PREFIX ?? '';
 
 const join = (...parts: string[]) =>

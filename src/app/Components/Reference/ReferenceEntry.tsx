@@ -9,7 +9,7 @@ export interface ReferenceEntryView {
   id: number;
   name: string;
   title: string;
-  phone?: string;
+  linkedIn?: string;
   email?: string;
   refLetterUrl?: string;
 }
@@ -22,7 +22,7 @@ export const ReferenceEntry = ({ reference }: Props) => {
         title={reference.title}
       />
       <ReferenceContact 
-        phone={reference.phone}
+        linkedIn={reference.linkedIn}
         email={reference.email}
       />
       {reference.refLetterUrl && (

@@ -1,4 +1,16 @@
-export const basePath =
-  process.env.NEXT_PUBLIC_BASE_PATH ?? (process.env.NODE_ENV === 'production' ? '/OAO-Portfolio' : '');
+import type { ImageLoader } from 'next/image';
 
-export const withBase = (p: string) => `${basePath}${p.startsWith('/') ? p : `/${p}`}`;
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
+const assetPrefix = process.env.NEXT_PUBLIC_ASSET_PREFIX ?? '';
+
+const join = (...parts: string[]) =>
+  parts
+    .map((p) => p.replace(/(^\/+|\/+$)/g, ''))
+    .filter(Boolean)
+    .join('/');
+
+export const ghPagesLoader: ImageLoader = ({ src }) => {
+  const cleanSrc = src.startsWith('/') ? src.slice(1) : src;
+  const url = '/' + join(basePath, assetPrefix, cleanSrc);
+  return url;
+};

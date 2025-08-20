@@ -4,7 +4,7 @@
     "titleSection": {
       "title": "METIS – Valorant Coaching Companion",
       "shortTitle": "METIS",
-      "logoPath": "images/metis/metis_logo.png" ,
+      "logoPath": "/images/metis/metis_logo.png" ,
       "duration": {
         "yearFrom": 2024,
         "yearTo": 2025
@@ -30,19 +30,19 @@
         "caption": "Post-match Summary"
       },
       {
-        "path": "./images/metis/metis_5.png",
+        "path": "/images/metis/metis_5.png",
         "caption": "Match Analysis"
       },
       {
-        "path": "./images/metis/metis_2.png",
+        "path": "/images/metis/metis_2.png",
         "caption": "Player Statistics"
       },
       {
-        "path": "./images/metis/metis_3.png",
+        "path": "/images/metis/metis_3.png",
         "caption": "Lineup results"
       },
       {
-        "path": "./images/metis/metis_4.png",
+        "path": "/images/metis/metis_4.png",
         "caption": "AI Coach"
       }
     ]
@@ -52,7 +52,7 @@
     "titleSection": {
       "title": "The Esports Coaching Academy Platform",
       "shortTitle": "The ECA Platform",
-      "logoPath": "./images/eca/eca_logo.png",
+      "logoPath": "/images/eca/eca_logo.png",
       "logoDimensions": {
         "width": 59,
         "height": 82
@@ -87,23 +87,23 @@
     ],
     "images": [
       {
-        "path": "./images/eca/eca_2.png",
+        "path": "/images/eca/eca_2.png",
         "caption": "Dashboard"
       },
       {
-        "path": "./images/eca/eca_1.png",
+        "path": "/images/eca/eca_1.png",
         "caption": "Exercise List"
       },
       {
-        "path": "./images/eca/eca_4.png",
+        "path": "/images/eca/eca_4.png",
         "caption": "Exercise Details"
       },
       {
-        "path": "./images/eca/eca_3.png",
+        "path": "/images/eca/eca_3.png",
         "caption": "Coach Calendar"
       },
       {
-        "path": "./images/eca/eca_5.png",
+        "path": "/images/eca/eca_5.png",
         "caption": "Content Editor"
       }
     ]
@@ -113,7 +113,7 @@
     "titleSection": {
       "title": "Roobi - Mobile Puzzle Game",
       "shortTitle": "Roobi",
-      "logoPath": "./images/roobi/roobi_logo.png",
+      "logoPath": "/images/roobi/roobi_logo.png",
       "duration": {
         "yearFrom": 2021
       },
@@ -135,19 +135,19 @@
     ],
     "images": [
       {
-        "path": "./images/roobi/roobi_1.png",
+        "path": "/images/roobi/roobi_1.png",
         "caption": "Screenshot 1"
       },
       {
-        "path": "./images/roobi/roobi_2.png",
+        "path": "/images/roobi/roobi_2.png",
         "caption": "Screenshot 2"
       },
       {
-        "path": "./images/roobi/roobi_3.png",
+        "path": "/images/roobi/roobi_3.png",
         "caption": "Screenshot 3"
       },
       {
-        "path": "./images/roobi/roobi_4.png",
+        "path": "/images/roobi/roobi_4.png",
         "caption": "Screenshot 4"
       }
     ]
@@ -157,7 +157,7 @@
     "titleSection": {
       "title": "Block Climber - Mobile Puzzle Game",
       "shortTitle": "Block Climber",
-      "logoPath": "./images/block_climber/block_climber_logo.png",
+      "logoPath": "/images/block_climber/block_climber_logo.png",
       "duration": {
         "yearFrom": 2022
       },
@@ -180,19 +180,19 @@
     ],
     "images": [
       {
-        "path": "./images/block_climber/block_1.png",
+        "path": "/images/block_climber/block_1.png",
         "caption": "Screenshot 1"
       },
       {
-        "path": "./images/block_climber/block_2.png",
+        "path": "/images/block_climber/block_2.png",
         "caption": "Screenshot 2"
       },
       {
-        "path": "./images/block_climber/block_3.png",
+        "path": "/images/block_climber/block_3.png",
         "caption": "Screenshot 3"
       },
       {
-        "path": "./images/block_climber/block_4.png",
+        "path": "/images/block_climber/block_4.png",
         "caption": "Screenshot 4"
       }
     ]

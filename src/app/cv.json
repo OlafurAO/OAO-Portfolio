@@ -37,5 +37,34 @@
     "techStack": [
       "Typescript", "React.js", "Node.js", "Remix", "Tailwind CSS", "C#", ".NET Core", "Discord API", "Riot API", "Semantic Kernel", "Qdrant", "Azure", "OpenAI API", "SerpAPI", "Stripe", "Sendgrid", "Vercel", "Sentry", "TinyMCE"
     ]
+  },
+  {
+    "id": 1,
+    "employer": "Festi hf.",
+    "duration": {
+      "yearFrom": 2021,
+      "yearTo": 2022
+    },
+    "positions": [
+      {
+        "title": "Junior Developer",
+        "duration": {
+          "yearFrom": 2021,
+          "yearTo": 2022
+        },
+        "description": "",
+        "highlights": [
+          "Maintained and extended backend features for Krónan’s systems, working independently on fixes and small improvements.",
+          "Contributed to the new Elko webstore (Next.js, TypeScript, Django), focusing on frontend development in a cross-functional team; part of the team at launch.",
+          "Implemented backend database tasks and integrations supporting e-commerce functionality.",
+          "Worked on the N1 web app, adding features post-release, and contributed to N1 Rafmagn, launched during my time on the team.",
+          "Supported development of the N1 mobile app with additional functionality.",
+          "Collaborated with backend engineers, frontend devs, and product teams to deliver features across multiple subsidiaries."
+        ]
+      }
+    ],
+    "techStack": [
+      "Typescript", "React.js", "Next.js", "Sass", "C#", ".NET Core", "Python", "Flutter", "AWS", "Docker", "Microsoft Dynamics NAV", "DatoCMS"
+    ]
   }
 ]

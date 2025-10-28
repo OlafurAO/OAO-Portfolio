@@ -64,7 +64,7 @@
       }
     ],
     "techStack": [
-      "Typescript", "React.js", "Next.js", "Sass", "C#", ".NET Core", "Python", "Flutter", "AWS", "Docker", "Microsoft Dynamics NAV", "DatoCMS"
+      "Typescript", "React.js", "Next.js", "Sass", "C#", ".NET Core", "Python", "Flutter", "Dart", "AWS", "Docker", "Microsoft Dynamics NAV", "DatoCMS"
     ]
   }
 ]
